@@ -1,0 +1,54 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.siren.homeproxy.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\CxAdmin\\Desktop\\qiezka\\uncode\\SIRENHomeProxy\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "599"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "108",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "652"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\CxAdmin\\Desktop\\qiezka\\uncode\\SIRENHomeProxy\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "52",
+                        "endOffsets": "103"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.siren.homeproxy.app-debug-4:/values-v31_values-v31.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\CxAdmin\\Desktop\\qiezka\\uncode\\SIRENHomeProxy\\app\\src\\main\\res\\values-v31\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "783"
+                    }
+                }
+            ]
+        }
+    ]
+}

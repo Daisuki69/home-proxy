@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.siren.homeproxy"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <queries>
+11-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:4:5-9:15
+12        <intent>
+12-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:5:9-8:18
+13            <action android:name="android.intent.action.MAIN" />
+13-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:6:13-65
+13-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:6:21-62
+14
+15            <category android:name="android.intent.category.HOME" />
+15-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:7:13-69
+15-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:7:23-66
+16        </intent>
+17    </queries>
+18
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:11:5-81
+19-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:11:22-78
+20    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+20-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:12:5-77
+20-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:12:22-74
+21
+22    <application
+22-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:14:5-56:19
+23        android:allowBackup="false"
+23-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:15:9-36
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@drawable/ic_transparent"
+26-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:17:9-48
+27        android:label="@string/app_name"
+27-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:16:9-41
+28        android:roundIcon="@drawable/ic_transparent"
+28-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:18:9-53
+29        android:supportsRtl="true"
+29-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:19:9-35
+30        android:theme="@style/Theme.SirenProxy" >
+30-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:20:9-48
+31        <activity
+31-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:22:9-42:20
+32            android:name="com.siren.homeproxy.SirenHomeActivity"
+32-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:23:13-46
+33            android:clearTaskOnLaunch="true"
+33-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:31:13-45
+34            android:excludeFromRecents="true"
+34-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:29:13-46
+35            android:exported="true"
+35-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:32:13-36
+36            android:icon="@drawable/ic_transparent"
+36-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:25:13-52
+37            android:label="@string/app_name"
+37-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:24:13-45
+38            android:launchMode="singleTask"
+38-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:27:13-44
+39            android:noHistory="true"
+39-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:30:13-37
+40            android:stateNotNeeded="true"
+40-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:28:13-42
+41            android:theme="@style/Theme.SirenProxy" >
+41-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:26:13-52
+42            <intent-filter android:priority="1" >
+42-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:33:13-37:29
+42-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:33:28-48
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:6:13-65
+43-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:6:21-62
+44
+45                <category android:name="android.intent.category.HOME" />
+45-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:7:13-69
+45-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:7:23-66
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:36:17-76
+46-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:36:27-73
+47            </intent-filter>
+48            <intent-filter>
+48-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:38:13-41:29
+49                <action android:name="com.siren.homeproxy.ACTION_REQUEST_HOME" />
+49-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:39:17-82
+49-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:39:25-79
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:36:17-76
+51-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:36:27-73
+52            </intent-filter>
+53        </activity>
+54
+55        <receiver
+55-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:44:9-54:20
+56            android:name="com.siren.homeproxy.SirenBootReceiver"
+56-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:45:13-46
+57            android:directBootAware="true"
+57-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:47:13-43
+58            android:exported="true" >
+58-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:46:13-36
+59            <intent-filter>
+59-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:48:13-53:29
+60                <action android:name="android.intent.action.BOOT_COMPLETED" />
+60-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:49:17-79
+60-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:49:25-76
+61                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+61-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:50:17-86
+61-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:50:25-83
+62                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+62-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:51:17-82
+62-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:51:25-79
+63                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+63-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:52:17-82
+63-->C:\Users\CxAdmin\Desktop\qiezka\uncode\SIRENHomeProxy\app\src\main\AndroidManifest.xml:52:25-79
+64            </intent-filter>
+65        </receiver>
+66    </application>
+67
+68</manifest>

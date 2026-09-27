@@ -1,0 +1,3 @@
+com.siren.homeproxy:style/Theme.SirenProxy = 0x7f030000
+com.siren.homeproxy:string/app_name = 0x7f020000
+com.siren.homeproxy:drawable/ic_transparent = 0x7f010000
